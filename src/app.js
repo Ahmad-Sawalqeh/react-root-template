@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from './components/header';
 
 function App() {
   return (
-      <h1>Hello Template</h1>
+      <Header />
   );
 }
 
