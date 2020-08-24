@@ -1,0 +1,30 @@
+#services {
+    background-color: #f6f8fb;
+}
+
+#services span {
+    color: #248eff;
+}
+
+.service-box {
+    padding: 25px;
+    border: 1px solid #eef1f5;
+    box-shadow: 2px 2px 4px #e9ebef;
+    margin-bottom: 13px;
+    background: white;
+}
+  
+.service-icon {
+    font-size: 30px;
+    color: #248eff;
+}
+
+.service-description {
+    font-size: 15px;
+    color: #6f6f6f;
+}
+.service-title {
+    font-size: 15px;
+    color: #4e4e4e;
+    margin-bottom: 13px;
+}
