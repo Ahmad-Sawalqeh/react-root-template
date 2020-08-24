@@ -3,7 +3,7 @@ import './home.css'
 
 const Home = () => {
   return (
-    <div className='home-content d-flex justify-content-center align-items-center p-5' >
+    <div className='home-content d-flex justify-content-center align-items-center py-5' >
         <div className='position-absolute z-index-1 container text-center text-light'>
         <h1 className='title'>WELCOME</h1>
         <h2 className='sub-title mb-4'>

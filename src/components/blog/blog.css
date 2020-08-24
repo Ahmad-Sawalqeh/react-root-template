@@ -1,0 +1,20 @@
+.card {
+    box-shadow: 0 10px 30px 0 rgba(50, 50, 50, 0.16);
+    border: none;
+}
+
+#blog span {
+    color: #248eff;
+}
+
+.card-title {
+    font-size: 13px;
+    font-weight: bolder;
+    color: #4e4e4e;
+    text-transform: uppercase;
+}
+
+.card-text {
+    font-size: 12px;
+    color: #6f6f6f;
+}

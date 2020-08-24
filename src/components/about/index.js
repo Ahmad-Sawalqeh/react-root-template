@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div className='section-content'>
           <div className='row'>
-            <div className='col-lg-6 mb-3'>
+            <div className='col-lg-6'>
               <div className='aboutImage'>
                 <img src={aboutImage} alt='about company' />
               </div>
@@ -43,7 +43,7 @@ const About = () => {
                   velit esse quam nihil molestiae consequatur, vel illum qui
                   dolorem eum fugiat quo voluptas nulla pariatur
                 </p>
-                <button className='btn btn-primary rounded-0'>Read More</button>
+                <a href='#' className='btn btn-primary rounded-0'>Read More</a>
               </div>
             </div>
           </div>
