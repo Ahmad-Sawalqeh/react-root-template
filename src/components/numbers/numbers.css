@@ -1,0 +1,30 @@
+.numbers-container{
+    background-image: url('./../../assets/img/numbers_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.numbers-container:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #003267;
+    opacity: 0.7;
+}
+
+.numbers-icon {
+    font-size: 32px;
+    color: #248eff;
+}
+
+.numbers-counter {
+    font-size: 32px;
+    font-weight: 700;
+}
