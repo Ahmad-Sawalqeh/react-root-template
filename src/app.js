@@ -5,6 +5,7 @@ import About from './components/about';
 import Services from './components/services';
 import Blog from './components/blog';
 import Numbers from './components/numbers';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Blog />
       <Numbers />
+      <Contact />
     </>
   );
 }
