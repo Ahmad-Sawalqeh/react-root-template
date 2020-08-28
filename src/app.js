@@ -7,6 +7,7 @@ import Blog from './components/blog';
 import Numbers from './components/numbers';
 import Contact from './components/contact';
 import Map from './components/map';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Numbers />
       <Contact />
       <Map />
+      <Footer />
     </>
   );
 }
