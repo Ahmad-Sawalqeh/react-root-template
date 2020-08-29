@@ -2,7 +2,7 @@ import React from 'react';
 
 const contact = () => {
   return (
-    <div id='contact'>
+    <section id='contact'>
       <div className='container py-5'>
         <div className='section-header py-5 text-center'>
           <h3 className='section-title'>
@@ -49,7 +49,7 @@ const contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

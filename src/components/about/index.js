@@ -4,7 +4,7 @@ import aboutImage from './../../assets/img/about.jpg';
 
 const About = () => {
   return (
-    <div id='about'>
+    <section id='about'>
       <div className='container py-5'>
         <div className='section-header py-5 text-center'>
           <h3 className='section-title'>
@@ -49,7 +49,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

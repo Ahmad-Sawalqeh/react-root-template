@@ -4,10 +4,10 @@ import Nav from './nav'
 
 const Header = () => {
     return (
-        <div className='header'>
+        <header>
             <SocialNav />
             <Nav />
-        </div>
+        </header>
     )
 }
 

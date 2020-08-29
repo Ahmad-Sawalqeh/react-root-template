@@ -2,7 +2,7 @@ import React from 'react';
 
 const Map = () => {
   return (
-    <div id='map'>
+    <section id='map'>
       <div>
         <iframe
           className="map"
@@ -11,7 +11,7 @@ const Map = () => {
           allowFullScreen
         />
       </div>
-    </div>
+    </section>
   );
 };
 

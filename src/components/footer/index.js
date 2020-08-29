@@ -1,4 +1,5 @@
 import React from 'react';
+import SmoothScrollLink from './../../scroll'
 
 const Footer = () => {
   return (
@@ -30,19 +31,29 @@ const Footer = () => {
             <div className='footer-content'>
               <ul className='list-group quick-links'>
                 <li>
-                    <a href="#">Home</a>
+                  <SmoothScrollLink targetId='home'>
+                    Home
+                  </SmoothScrollLink>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                  <SmoothScrollLink targetId='about' offset={-80}>
+                    About
+                  </SmoothScrollLink> 
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                  <SmoothScrollLink targetId='services' offset={-80}>
+                    Services
+                  </SmoothScrollLink> 
                 </li>
                 <li>
-                    <a href="#">Blog</a>
+                  <SmoothScrollLink targetId='blog' offset={-80}>
+                    Blog
+                  </SmoothScrollLink> 
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                  <SmoothScrollLink targetId='contact' offset={-80}>
+                    Contact
+                  </SmoothScrollLink> 
                 </li>
               </ul>
             </div>

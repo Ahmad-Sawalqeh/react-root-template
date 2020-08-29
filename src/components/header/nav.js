@@ -1,4 +1,5 @@
 import React from 'react';
+import SmoothScrollLink from './../../scroll'
 
 const Nav = () => {
   return (
@@ -11,19 +12,29 @@ const Nav = () => {
         <div className='nav'>
           <ul className='navbar-nav ml-auto'>
             <li className='nav-item'>
-                <a href='#' className='nav-link'>Home</a>
+              <SmoothScrollLink targetId='home'  classes='nav-link'>
+                Home
+              </SmoothScrollLink>
             </li>
             <li className='nav-item'>
-                <a href='#' className='nav-link'>About</a>                
+              <SmoothScrollLink targetId='about' offset={-80} classes='nav-link'>
+                About
+              </SmoothScrollLink> 
+            </li>
+            <li className='nav-item'>             
+              <SmoothScrollLink targetId='services' offset={-80} classes='nav-link'>
+                Services
+              </SmoothScrollLink>
             </li>
             <li className='nav-item'>
-                <a href='#' className='nav-link'>Services</a>                
+              <SmoothScrollLink targetId='blog' offset={-80} classes='nav-link'>
+                Blog
+              </SmoothScrollLink>
             </li>
             <li className='nav-item'>
-                <a href='#' className='nav-link'>Blog</a>                
-            </li>
-            <li className='nav-item'>
-                <a href='#' className='nav-link'>Contact</a>                
+              <SmoothScrollLink targetId='contact' offset={-80} classes='nav-link'>
+                Contact
+              </SmoothScrollLink>
             </li>
           </ul>
         </div>

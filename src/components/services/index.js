@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div id='services'>
+    <section id='services'>
       <div className='container py-2'>
         <div className='section-header py-5 text-center'>
           <h3 className='section-title'>
@@ -103,7 +103,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

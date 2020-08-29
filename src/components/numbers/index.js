@@ -2,7 +2,7 @@ import React from 'react';
 
 const Numbers = () => {
   return (
-    <div id='numbers'>
+    <section id='numbers'>
       <div className='numbers-container' >
         <div className='container py-5'>
           <div className='row'>
@@ -37,7 +37,7 @@ const Numbers = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
