@@ -1,5 +1,4 @@
 import React from 'react';
-import './numbers.css'
 
 const Numbers = () => {
   return (

@@ -1,5 +1,4 @@
 import React from 'react';
-import './blog.css'
 
 import blogImage1 from './../../assets/img/blog1.jpg';
 import blogImage2 from './../../assets/img/blog2.jpg';
