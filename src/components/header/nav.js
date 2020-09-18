@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SmoothScrollLink from './../../scroll'
 
 const Nav = () => {
+  const [toggeledNav, settoggeledNav] = useState(false);
+
+  const toggleNav = () => {
+    settoggeledNav(!toggeledNav);
+  };
+
   return (
-    <nav className='navbar navbar-expand-lg bg-light'>
+    <nav className='navbar navbar-expand-lg bg-light' >
       <div className='container'>
         <a className='navbar-brand' href='#'>
           <span>Root</span>
           <i className='fas fa-circle ml-1' />
         </a>
-        <div className='nav'>
+
+        <div className={`navbar-toggler nav-icon ${ toggeledNav ? 'open' : ''}`}  onClick={toggleNav} >
+          <i class="fas fa-align-justify"></i>
+        </div>
+
+        <div className={`collapse navbar-collapse ${ toggeledNav ? 'show' : ''}`} >
           <ul className='navbar-nav ml-auto'>
             <li className='nav-item'>
               <SmoothScrollLink targetId='home'  classes='nav-link'>

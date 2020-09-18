@@ -12,7 +12,7 @@ const SmoothScrollLink = props => {
       spy={true}
       smooth={true}
       offset={offset}
-      duration={700}
+      duration={1000}
     >
       {children}
     </Link>
